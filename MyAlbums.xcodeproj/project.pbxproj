@@ -12,6 +12,17 @@
 		D7AA01432BBAA3BA006AC9F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA01422BBAA3BA006AC9F5 /* ViewController.swift */; };
 		D7AA01482BBAA3BC006AC9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AA01472BBAA3BC006AC9F5 /* Assets.xcassets */; };
 		D7AA014B2BBAA3BC006AC9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AA01492BBAA3BC006AC9F5 /* LaunchScreen.storyboard */; };
+		D7AA015D2BBAAEB0006AC9F5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D7AA015C2BBAAEB0006AC9F5 /* SnapKit */; };
+		D7AA015F2BBAAEB0006AC9F5 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D7AA015E2BBAAEB0006AC9F5 /* SnapKit-Dynamic */; };
+		D7AA01612BBB16B4006AC9F5 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA01602BBB16B4006AC9F5 /* PhotoCell.swift */; };
+		D7AA01632BBB2182006AC9F5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA01622BBB2182006AC9F5 /* Model.swift */; };
+		D7AA01652BBBEF8E006AC9F5 /* StructureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA01642BBBEF8E006AC9F5 /* StructureModel.swift */; };
+		D7AA01672BBF004E006AC9F5 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA01662BBF004E006AC9F5 /* TitleView.swift */; };
+		D7AA01692BBF05D7006AC9F5 /* AlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA01682BBF05D7006AC9F5 /* AlbumsView.swift */; };
+		D7AA016B2BBF065D006AC9F5 /* AlbumsSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA016A2BBF065D006AC9F5 /* AlbumsSectionHeader.swift */; };
+		D7AA016D2BBF06DD006AC9F5 /* MediaTypesAndUtilitiesCollectionViewListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA016C2BBF06DD006AC9F5 /* MediaTypesAndUtilitiesCollectionViewListCell.swift */; };
+		D7AA016F2BBF0702006AC9F5 /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA016E2BBF0702006AC9F5 /* PeopleCollectionViewCell.swift */; };
+		D7AA01712BBF072E006AC9F5 /* PlacesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA01702BBF072E006AC9F5 /* PlacesCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,15 @@
 		D7AA01472BBAA3BC006AC9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7AA014A2BBAA3BC006AC9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7AA014C2BBAA3BC006AC9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AA01602BBB16B4006AC9F5 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		D7AA01622BBB2182006AC9F5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D7AA01642BBBEF8E006AC9F5 /* StructureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureModel.swift; sourceTree = "<group>"; };
+		D7AA01662BBF004E006AC9F5 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		D7AA01682BBF05D7006AC9F5 /* AlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsView.swift; sourceTree = "<group>"; };
+		D7AA016A2BBF065D006AC9F5 /* AlbumsSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsSectionHeader.swift; sourceTree = "<group>"; };
+		D7AA016C2BBF06DD006AC9F5 /* MediaTypesAndUtilitiesCollectionViewListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTypesAndUtilitiesCollectionViewListCell.swift; sourceTree = "<group>"; };
+		D7AA016E2BBF0702006AC9F5 /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
+		D7AA01702BBF072E006AC9F5 /* PlacesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7AA015D2BBAAEB0006AC9F5 /* SnapKit in Frameworks */,
+				D7AA015F2BBAAEB0006AC9F5 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +95,15 @@
 		D7AA01532BBAA417006AC9F5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D7AA01582BBAA719006AC9F5 /* Utilities */,
+				D7AA01572BBAA70F006AC9F5 /* MediaTypes */,
+				D7AA01562BBAA705006AC9F5 /* People */,
+				D7AA01552BBAA690006AC9F5 /* MyAlbums */,
 				D7AA01422BBAA3BA006AC9F5 /* ViewController.swift */,
+				D7AA01622BBB2182006AC9F5 /* Model.swift */,
+				D7AA01642BBBEF8E006AC9F5 /* StructureModel.swift */,
+				D7AA01682BBF05D7006AC9F5 /* AlbumsView.swift */,
+				D7AA016A2BBF065D006AC9F5 /* AlbumsSectionHeader.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -86,6 +116,39 @@
 				D7AA014C2BBAA3BC006AC9F5 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7AA01552BBAA690006AC9F5 /* MyAlbums */ = {
+			isa = PBXGroup;
+			children = (
+				D7AA01602BBB16B4006AC9F5 /* PhotoCell.swift */,
+				D7AA01662BBF004E006AC9F5 /* TitleView.swift */,
+			);
+			path = MyAlbums;
+			sourceTree = "<group>";
+		};
+		D7AA01562BBAA705006AC9F5 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				D7AA016E2BBF0702006AC9F5 /* PeopleCollectionViewCell.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		D7AA01572BBAA70F006AC9F5 /* MediaTypes */ = {
+			isa = PBXGroup;
+			children = (
+				D7AA016C2BBF06DD006AC9F5 /* MediaTypesAndUtilitiesCollectionViewListCell.swift */,
+			);
+			path = MediaTypes;
+			sourceTree = "<group>";
+		};
+		D7AA01582BBAA719006AC9F5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D7AA01702BBF072E006AC9F5 /* PlacesCollectionViewCell.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +167,10 @@
 			dependencies = (
 			);
 			name = MyAlbums;
+			packageProductDependencies = (
+				D7AA015C2BBAAEB0006AC9F5 /* SnapKit */,
+				D7AA015E2BBAAEB0006AC9F5 /* SnapKit-Dynamic */,
+			);
 			productName = MyAlbums;
 			productReference = D7AA013B2BBAA3BA006AC9F5 /* MyAlbums.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +199,9 @@
 				Base,
 			);
 			mainGroup = D7AA01322BBAA3BA006AC9F5;
+			packageReferences = (
+				D7AA015B2BBAAEB0006AC9F5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = D7AA013C2BBAA3BA006AC9F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -158,9 +228,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7AA01632BBB2182006AC9F5 /* Model.swift in Sources */,
+				D7AA01612BBB16B4006AC9F5 /* PhotoCell.swift in Sources */,
+				D7AA016D2BBF06DD006AC9F5 /* MediaTypesAndUtilitiesCollectionViewListCell.swift in Sources */,
+				D7AA01692BBF05D7006AC9F5 /* AlbumsView.swift in Sources */,
+				D7AA01672BBF004E006AC9F5 /* TitleView.swift in Sources */,
+				D7AA016B2BBF065D006AC9F5 /* AlbumsSectionHeader.swift in Sources */,
 				D7AA01432BBAA3BA006AC9F5 /* ViewController.swift in Sources */,
 				D7AA013F2BBAA3BA006AC9F5 /* AppDelegate.swift in Sources */,
+				D7AA01712BBF072E006AC9F5 /* PlacesCollectionViewCell.swift in Sources */,
+				D7AA01652BBBEF8E006AC9F5 /* StructureModel.swift in Sources */,
 				D7AA01412BBAA3BA006AC9F5 /* SceneDelegate.swift in Sources */,
+				D7AA016F2BBF0702006AC9F5 /* PeopleCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +452,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7AA015B2BBAAEB0006AC9F5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7AA015C2BBAAEB0006AC9F5 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7AA015B2BBAAEB0006AC9F5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D7AA015E2BBAAEB0006AC9F5 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7AA015B2BBAAEB0006AC9F5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D7AA01332BBAA3BA006AC9F5 /* Project object */;
 }
