@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MyAlbumsFactory {
+struct StructureModel {
     static func createModel() -> [[Model]] {
         [
             [
