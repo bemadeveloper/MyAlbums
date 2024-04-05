@@ -26,14 +26,14 @@ final class TitleView: UIView {
 
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.font = Constants.titleFont
+        label.font = UIFont.systemFont(ofSize: 14)
         return label
     }()
 
     private lazy var subtitleLabel: UILabel = {
         let label = UILabel()
-        label.font = Constants.subtitleFont
-        label.textColor = Constants.subtitleTextColor
+        label.font = UIFont.systemFont(ofSize: 15)
+        label.textColor = UIColor.lightGray
         return label
     }()
 
@@ -62,17 +62,8 @@ final class TitleView: UIView {
         
         subtitleLabel.snp.makeConstraints { make in
             make.leading.trailing.equalTo(self)
-            make.top.equalTo(titleLabel.snp.bottom).offset(Constants.subtitleOffset)
+            make.top.equalTo(titleLabel.snp.bottom).offset(1.0)
         }
     }
 
-}
-
-// MARK: - Constants
-
-fileprivate enum Constants {
-    static let titleFont = UIFont.systemFont(ofSize: 14)
-    static let subtitleFont = UIFont.systemFont(ofSize: 15)
-    static let subtitleTextColor = UIColor.lightGray
-    static let subtitleOffset = 1.0
 }
