@@ -32,7 +32,7 @@ final class TitleView: UIView {
 
     private lazy var subtitleLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 15)
+        label.font = UIFont.systemFont(ofSize: 14)
         label.textColor = UIColor.lightGray
         return label
     }()

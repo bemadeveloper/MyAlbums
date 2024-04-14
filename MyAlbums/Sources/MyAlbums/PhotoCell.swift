@@ -48,7 +48,8 @@ class PhotoCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
+        setupHierarchy()
+        setupLayout()
     }
     
     required init?(coder: NSCoder) {

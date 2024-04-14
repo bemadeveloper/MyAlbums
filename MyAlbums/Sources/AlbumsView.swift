@@ -96,15 +96,15 @@ class AlbumsView: UIView {
             )
             let layoutItem = NSCollectionLayoutItem(layoutSize: itemSize)
             layoutItem.contentInsets = NSDirectionalEdgeInsets(
-                top: 0,
+                top: 10,
                 leading: 5,
-                bottom: 10,
+                bottom: 20,
                 trailing: 5
             )
 
             let groupSize = NSCollectionLayoutSize(
-                widthDimension: .fractionalWidth(1 / 2.17),
-                heightDimension: .estimated(210)
+                widthDimension: .fractionalWidth(1 / 2.2),
+                heightDimension: .estimated(215)
             )
             let layoutGroup = NSCollectionLayoutGroup.vertical(
                 layoutSize: groupSize,
