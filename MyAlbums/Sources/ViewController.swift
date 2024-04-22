@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController, ConstraintRelatableTarget {
+class ViewController: UIViewController {
     
     private var albums: [[Model]]?
     
@@ -36,6 +36,7 @@ class ViewController: UIViewController, ConstraintRelatableTarget {
         )
         navigationItem.leftBarButtonItem = addButton
         navigationController?.navigationBar.prefersLargeTitles = true
+        title = "Albums"
     }
 
     // MARK: - Data
@@ -49,7 +50,6 @@ class ViewController: UIViewController, ConstraintRelatableTarget {
     @objc private func addTapped() {
         print("Нажата ячейка +.")
     }
-    
 }
 
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
