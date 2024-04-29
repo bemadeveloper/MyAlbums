@@ -23,6 +23,8 @@
 		D7AA016D2BBF06DD006AC9F5 /* MediaTypesAndUtilitiesCollectionViewListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA016C2BBF06DD006AC9F5 /* MediaTypesAndUtilitiesCollectionViewListCell.swift */; };
 		D7AA016F2BBF0702006AC9F5 /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA016E2BBF0702006AC9F5 /* PeopleCollectionViewCell.swift */; };
 		D7AA01712BBF072E006AC9F5 /* PlacesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA01702BBF072E006AC9F5 /* PlacesCollectionViewCell.swift */; };
+		D7AC93282BD6449D00B7ECBB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AC93272BD6449D00B7ECBB /* TabBarController.swift */; };
+		D7AC932A2BD645E200B7ECBB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AC93292BD645E200B7ECBB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		D7AA016C2BBF06DD006AC9F5 /* MediaTypesAndUtilitiesCollectionViewListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTypesAndUtilitiesCollectionViewListCell.swift; sourceTree = "<group>"; };
 		D7AA016E2BBF0702006AC9F5 /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
 		D7AA01702BBF072E006AC9F5 /* PlacesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCollectionViewCell.swift; sourceTree = "<group>"; };
+		D7AC93272BD6449D00B7ECBB /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D7AC93292BD645E200B7ECBB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 				D7AA01642BBBEF8E006AC9F5 /* StructureModel.swift */,
 				D7AA01682BBF05D7006AC9F5 /* AlbumsView.swift */,
 				D7AA016A2BBF065D006AC9F5 /* AlbumsSectionHeader.swift */,
+				D7AC93262BD6448B00B7ECBB /* TabBar */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -149,6 +154,15 @@
 				D7AA01702BBF072E006AC9F5 /* PlacesCollectionViewCell.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D7AC93262BD6448B00B7ECBB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D7AC93272BD6449D00B7ECBB /* TabBarController.swift */,
+				D7AC93292BD645E200B7ECBB /* DetailViewController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +251,11 @@
 				D7AA01432BBAA3BA006AC9F5 /* ViewController.swift in Sources */,
 				D7AA013F2BBAA3BA006AC9F5 /* AppDelegate.swift in Sources */,
 				D7AA01712BBF072E006AC9F5 /* PlacesCollectionViewCell.swift in Sources */,
+				D7AC93282BD6449D00B7ECBB /* TabBarController.swift in Sources */,
 				D7AA01652BBBEF8E006AC9F5 /* StructureModel.swift in Sources */,
 				D7AA01412BBAA3BA006AC9F5 /* SceneDelegate.swift in Sources */,
 				D7AA016F2BBF0702006AC9F5 /* PeopleCollectionViewCell.swift in Sources */,
+				D7AC932A2BD645E200B7ECBB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
